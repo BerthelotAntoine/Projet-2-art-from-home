@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropdownMenu from "./DropdownMenu";
 import "./LandingPage.scss";
+import logosmall from "../assets/images/logo300.png";
 
 function Navbar() {
   const [isDropdownVisible, setDropdownVisible] = useState(false);
@@ -13,11 +14,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <a href="/">
-        <img
-          className="navbarLogo"
-          src="/src/assets/images/logo300.png"
-          alt="logo Art from home"
-        />
+        <img className="navbarLogo" src={logosmall} alt="logo Art from home" />
       </a>
 
       <ul className="navbarList">

@@ -1,18 +1,12 @@
+import nightsky from "../assets/images/nightsky.jpg";
+import logobig from "../assets/images/logo600.png";
 import "./LandingPage.scss";
 
 function WelcomeCard() {
   return (
     <>
-      <img
-        className="welcomeImage"
-        src="/src/assets/images/nightsky.jpg"
-        alt=""
-      />
-      <img
-        className="welcomeLogo"
-        src="/src/assets/images/logo600.png"
-        alt=""
-      />
+      <img className="welcomeImage" src={nightsky} alt="" />
+      <img className="welcomeLogo" src={logobig} alt="" />
       <p className="description">
         View art from anywhere, everywhere, you can browse the art on display
         and click on the images to view them in details and learn more about the
