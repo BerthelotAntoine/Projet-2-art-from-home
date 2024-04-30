@@ -20,7 +20,7 @@ function Navbar() {
       <ul className="navbarList">
         <li>
           <Link rel="stylesheet" to="/" className="buttonAccueil">
-            Accueil
+            Home
           </Link>
         </li>
         <li>
